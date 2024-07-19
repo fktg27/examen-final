@@ -1,0 +1,59 @@
+/*estilos generales*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+ height: 100vh;
+ background-color: #2b807b;
+ text-align: center;
+}
+#textocontenedor{
+    width: 90%;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.centrado{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#contenedor{
+    height: 220px;
+    width: 450px;
+    background-color: rgb(88, 233, 52);
+    border: 5px solid black;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#color{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+button{
+    font-size: 35px;
+    color: white;
+    border-radius: 20px;
+    background-color: #008cfa;
+    margin: 15px;
+    padding: 10px 30px;
+    border: none;
+    user-select: none;
+    transition-duration:0.4s;
+    cursor: pointer;
+}
+
+button:hover{
+    transform:scale(1.08);
+}
+
